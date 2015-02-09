@@ -1,0 +1,13 @@
+<h1>Add a User!</h1>
+
+<%= form_for @user do |f| %> 
+
+  User Name: <%= f.text_field :user_name %>
+  E-mail <%= f.text_field :email %>
+  DOB <%= f.date_field :quantity %>
+  
+
+  <%= f.submit "Add this User!" %>
+
+
+  <% end %>
